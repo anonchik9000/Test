@@ -20,7 +20,7 @@ namespace Test
         public override string Serialize()
         {
             //15 - 1111 - 4бита - 0
-            //299 - 1 0010 1011 - 9бит - 1 
+            //300 - 1 0010 1100 - 9бит - 1 
             BitData bits = new BitData();
             foreach (int number in Items)
             {
